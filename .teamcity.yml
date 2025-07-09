@@ -1,0 +1,15 @@
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: script
+        script-content: cat README.md
+        working-directory: checkout
+      - type: script
+        script-content: cat README.md
+    repositories:
+      - main:
+          path: checkout
+          enabled: true
+      - https://github.com/ollven/level1-1:
+          enabled: true
