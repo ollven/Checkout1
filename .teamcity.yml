@@ -7,6 +7,9 @@ jobs:
         working-directory: checkout
       - type: script
         script-content: cat README.md
+        working-directory: level1-1
+      - type: script
+        script-content: pwd
     repositories:
       - main:
           path: checkout
