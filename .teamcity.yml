@@ -12,4 +12,5 @@ jobs:
           path: checkout
           enabled: true
       - https://github.com/ollven/level1-1:
+          path: level1-1
           enabled: true
