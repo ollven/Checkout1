@@ -18,6 +18,3 @@ jobs:
       - https://github.com/ollven/level1-1:
           path: level1-1
           enabled: true
-      - CheckoutOneRoot_HttpsGithubComOllvenLevel11main:
-          path: level1-1
-          enabled: true
